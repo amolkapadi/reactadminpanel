@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import MultipleInput from './Component/FormInput/MultipleInput';
+import Navbar from './Component/Navbar/Navbar';
+import { Routes,Route } from "react-router-dom";
+import LoginForm from './Component/LoginForm/LoginForm';
+import Register from './Component/Register/Register';
+import ApiCall from './Component/ApiCall/ApiCall';
+import { SearchProduct } from './Component/SearchProduct/SearchProduct';
+import Price from './Component/PricingProduct/Price';
+import Adminpanel from './Component/AdminPanel/Adminpanel';
+import MainAdmin from './Component/AdminPanel/MainAdmin';
+import MaterialUi from './MaterialUi';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <MainAdmin />
+      
+    
+    </>
   );
 }
 

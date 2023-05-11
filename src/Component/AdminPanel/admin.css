@@ -1,0 +1,133 @@
+body{
+    background-color: #F2F4F6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-size: 25px!important;
+    font-weight: 500;
+}
+.offcanvas-start {
+    width: 230px!important;
+    background-color: #152742;
+    color: white;
+}
+.nav-item {
+    background-color: #152742 !important;
+}
+.offcanvas-title{
+    color: rgb(243, 181, 9)!important;
+}
+.nav-link{
+    color: white!important;
+    font-size: 15px!important;
+}
+.active {
+    background-color: #374151!important;
+    border-radius: 5px;
+    color: white!important;
+}
+
+@media (min-width:992px){
+    .offcanvas-start{
+        transform: none!important;
+        visibility: visible!important;
+    }
+    .contanier-fluid{
+    position: absolute;
+    left: 250px;
+}
+}
+
+@media (min-width: 768px){
+.col-md-9 {
+    width: 68%;
+    position: relative;
+    left: -90px;
+}}
+
+
+/***Dashboard Page***/
+.card{
+    border-radius: 10px!important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/***user list****/
+.userlist-card{
+    font-size: .8rem!important;
+    cursor: pointer!important;
+    border-left: 3px solid rgb(243, 181, 9)!important;
+}
+
+/****Add User*****/
+.Adduserform{
+    padding: 10px;
+    background-color: white;
+    margin-top: 18px!important;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-bottom: 25px;
+}
+.btn-primary{
+    background-color: rgb(243, 181, 9)!important;
+    border-radius: 0!important;
+    border: none;
+    color: black;
+}
+.form-label{
+    font-size: 13px;
+}
+.form-control,.form-select{
+    position: relative;
+    cursor: text;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 14px;
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #d6d6e7;
+    border-radius: 3px;
+    color: rgb(35, 38, 59);
+    box-shadow: inset 0 1px 4px 0 rgb(119 122 175 / 30%);
+    overflow: hidden;
+    transition: all 100ms ease-in-out;
+}
+
+
+
+.form-control:focus {
+    border-color: rgb(243, 181, 9)!important;
+    box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);
+}
+
+
+/**settingform***/
+.settingform{
+    padding: 10px;
+    background-color: white;
+    margin-top: 18px!important;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-bottom: 25px;
+}
+.btn-connect{
+    color: #fff;
+    background-color: #1f2937;
+    border-color: #1f2937;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 1px rgb(17 24 39 / 8%);
+}
+.btn-msg{
+    color: #1f2937;
+    background-color: #f0bc74;
+    border-color: #f0bc74;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 1px rgb(17 24 39 / 8%);
+}
+.file-select{
+    background-color: #f0bc74;
+}
+
+/***table*****/
+.first-head{
+    background-color: #152742!important;
+    color: #f0bc74;
+}
