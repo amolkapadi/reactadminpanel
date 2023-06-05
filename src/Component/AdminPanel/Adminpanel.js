@@ -57,7 +57,7 @@ export default function Adminpanel() {
                   <NavLink className="nav-link" to="/adduser">
                   <i class="bi bi-person-add"></i>  Add User
                   </NavLink>
-                </li>
+                </li> 
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/settings">
                   <i class="bi bi-sliders"></i>  Settings
