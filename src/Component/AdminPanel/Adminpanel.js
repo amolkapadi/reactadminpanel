@@ -28,7 +28,7 @@ export default function Adminpanel() {
           >
             <div className="offcanvas-header text-center">
               <h5 className="offcanvas-title" id="offcanvasScrollingLabel">
-                <i className="bi bi-back"></i> React Admin
+                One-solution
               </h5>
          <div>
          <i className="bi bi-back" onClick={Toggle}></i> 
